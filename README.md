@@ -1,17 +1,33 @@
 # bash-kaos-mac
-Get more information out of a beautiful looking bash prompt.
-
-Features:
-* shows logged in user, os and present directory in different colors
-* commands on a new line
-* shows git information
-* has git auto completion
 
 
-## Installation
+
+<p align="center">Get more information out of a beautiful looking bash prompt.</p>
+
+<p align="center"><img src="https://dl.dropboxusercontent.com/s/abpj8elnyrf16zh/screenshot.png?dl=0" width=700 alt="Screenshot of bash-kaos-mac"></p>
+
+
+Features
+------------
+
+* **colors** — shows logged in user, os and present directory in different colors
+* **clarity** — commands on a new line
+* **git** — shows git information, has git auto completion
+
+
+Getting Started with bash-kaos-mac
+------------------------------
+
+### Prerequisites
+
+You're going to need:
+
+ - **Sublime Text 3** — Get it here - https://www.sublimetext.com/3
+
+### Installation
 
 The most convenient way of installation is to checkout the repository and symlink the relevant scripts.
-Assuming the installation in home directory:
+This needs to be run in the home directory:
 
 ```bash
 git clone https://github.com/kaushald/bash-kaos-mac.git .bash-kaos
