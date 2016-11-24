@@ -21,6 +21,11 @@ git clone https://github.com/kaushald/bash-kaos.git .bash-kaos
 [ -f .bash_logout ] && mv -v .bash_logout bash_logout.old
 ln -s .bash-kaos/bashrc.sh .bashrc
 ln -s .bash-kaos/bash_profile.sh .bash_profile
+ln -s .bash-kaos/bash_prompt.sh .bash_prompt
 ln -s .bash-kaos/bash_aliases.sh .bash_aliases
 ln -s .bash-kaos/bash_logout.sh .bash_logout
+ln -s .bash-kaos/git-completion.bash git-completion.bash
+ln -s .bash-kaos/git-prompt.sh git-prompt.sh
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+
 ```

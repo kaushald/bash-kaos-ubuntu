@@ -6,7 +6,10 @@ fi
 
 mesg n
 
+#system info
 system_profiler SPHardwareDataType
+echo
+hostinfo
 
 echo
 echo "Have a nice day!"
