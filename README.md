@@ -22,12 +22,11 @@ Getting Started with bash-kaos-mac
 
 You're going to need:
 
- - **Sublime Text 3** — Get it here - https://www.sublimetext.com/3
+ - **A Debian Based OS** — Like Ubuntu - https://www.ubuntu.com/
 
 ### Installation
 
-The most convenient way of installation is to checkout the repository and symlink the relevant scripts.
-This needs to be run in the home directory:
+The most convenient way of installation is to checkout the repository and symlink the relevant scripts by running the following command in the home directory:
 
 ```bash
 git clone https://github.com/kaushald/bash-kaos-mac.git .bash-kaos
@@ -42,6 +41,4 @@ ln -s .bash-kaos/bash_aliases.sh .bash_aliases
 ln -s .bash-kaos/bash_logout.sh .bash_logout
 ln -s .bash-kaos/git-completion.bash git-completion.bash
 ln -s .bash-kaos/git-prompt.sh git-prompt.sh
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
-
 ```
