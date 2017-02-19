@@ -1,10 +1,10 @@
-# bash-kaos-mac [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# bash-kaos-ubuntu [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 
 
 <p align="center">Get more information out of a beautiful looking bash prompt.</p>
 
-<p align="center"><img src="https://dl.dropboxusercontent.com/s/abpj8elnyrf16zh/screenshot.png?dl=0" width=700 alt="Screenshot of bash-kaos-mac"></p>
+<p align="center"><img src="https://dl.dropboxusercontent.com/s/abpj8elnyrf16zh/screenshot.png?dl=0" width=700 alt="Screenshot of bash-kaos-ubuntu"></p>
 
 
 Features
@@ -15,7 +15,7 @@ Features
 * **git** — shows git information, has git auto completion
 
 
-Getting Started with bash-kaos-mac
+Getting Started with bash-kaos-ubuntu
 ------------------------------
 
 ### Prerequisites
@@ -29,7 +29,7 @@ You're going to need:
 The most convenient way of installation is to checkout the repository and symlink the relevant scripts by running the following command in the home directory:
 
 ```bash
-git clone https://github.com/kaushald/bash-kaos-mac.git .bash-kaos
+git clone https://github.com/kaushald/bash-kaos-ubuntu.git .bash-kaos
 [ -f .bashrc ] && mv -v .bashrc bashrc.old
 [ -f .bash_profile ] && mv -v .bash_profile bash_profile.old
 [ -f .bash_aliases ] && mv -v .bash_aliases bash_aliases.old
