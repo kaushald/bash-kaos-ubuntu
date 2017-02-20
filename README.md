@@ -29,6 +29,7 @@ You're going to need:
 The most convenient way of installation is to checkout the repository and symlink the relevant scripts by running the following command in the home directory:
 
 ```bash
+cd
 git clone https://github.com/kaushald/bash-kaos-ubuntu.git .bash-kaos
 [ -f .bashrc ] && mv -v .bashrc bashrc.old
 [ -f .bash_profile ] && mv -v .bash_profile bash_profile.old
@@ -41,4 +42,6 @@ ln -s .bash-kaos/bash_aliases.sh .bash_aliases
 ln -s .bash-kaos/bash_logout.sh .bash_logout
 ln -s .bash-kaos/git-completion.bash git-completion.bash
 ln -s .bash-kaos/git-prompt.sh git-prompt.sh
+echo
+
 ```
